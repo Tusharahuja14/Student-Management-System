@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #cdcdcd;
+}
+.head {
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 9px;
+  border-radius: 0;
+}
+.search {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+#searchbar {
+  width: 80%;
+  height: 40px;
+  margin-top: 10px;
+}
+.searchbtn {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  width: 12%;
+  height: 40px;
+  margin-top: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  margin-top: 10px;
+}
+.buttons button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 2px;
+  width: 12%;
+  height: 40px;
+}
+.stdtable {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+.stdtable th,
+.stdtable td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.stdtablef {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+.stdtablef th,
+.stdtablef td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 38px;
+  height: 38px;
+  top: 366px;
+  left: 116px;
+  opacity: 0px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.nam {
+  padding-top: 13px;
+}
