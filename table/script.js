@@ -139,6 +139,32 @@ let obj=[{"id":1,"first_name":"Chadwick","last_name":"Ayre","email":"cayre0@cam.
             `
             tablerow.appendChild(rowele)
             }
+            else if(element.email===val)
+            {
+                let rowele=document.createElement("tr");
+            rowele.innerHTML=`<td>${element.id}</td>
+           <td><div class="name"><img src=${element.img_src} class="img"><span class=nam>${element.first_name} ${element.last_name}</span></div></td>
+            <td>${element.gender}</td>
+            <td>${element.class}</td>
+            <td>${element.marks}</td>
+            <td>${element.passing==true?"passing":"fail"}</td>
+            <td>${element.email}</td>
+            `
+            tablerow.appendChild(rowele)
+            }
+            else if(element.last_name===val)
+            {
+                let rowele=document.createElement("tr");
+            rowele.innerHTML=`<td>${element.id}</td>
+           <td><div class="name"><img src=${element.img_src} class="img"><span class=nam>${element.first_name} ${element.last_name}</span></div></td>
+            <td>${element.gender}</td>
+            <td>${element.class}</td>
+            <td>${element.marks}</td>
+            <td>${element.passing==true?"passing":"fail"}</td>
+            <td>${element.email}</td>
+            `
+            tablerow.appendChild(rowele)
+            }
           });
         
     }
